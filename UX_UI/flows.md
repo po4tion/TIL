@@ -17,3 +17,8 @@
 - 일련의 Task flows는 User flows에 포함될 수 있지만, Task flows와 달리 User flows는 설계와 상호작용 할 때 사용자의 결정에 따라 사용자 마다의 종착점에 도달하기 위한 방법이 다르다. 일반적으로 User flows는 Task flows보다 복잡한 경향이 있다.
 
 <img src="./img/userflow_findpancake.png"  alt="pancake 이미지" />
+
+### 참고
+
+[erika harano](https://medium.com/erika-harano/ux-task-flows-versus-user-flows-as-demonstrated-by-pancakes-896e78a98026)  
+[Brianna Aikens](https://medium.com/@briannacaikens/flowcharts-user-flows-and-task-flows-oh-my-b866e7abf6a0)
