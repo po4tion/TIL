@@ -11,3 +11,4 @@
 
 - [Task flows와 User flows](./UX_UI/flows.md)
 - [Persona](./UX_UI/persona.md)
+- [Fidelity](./UX_UI/fidelity.md)

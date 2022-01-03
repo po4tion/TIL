@@ -1,4 +1,4 @@
-# Task flows & User flows
+# Task flows vs User flows
 
 > Task flows와 User flows는 모두 UX 설계 프로세스의 상호 작용 설계 단계 내에서 일반적으로 유용한 결과물이다. 설계의 내용과 특징에 걸쳐 구조, 계층, 조직 및 관계를 매핑하여 설계를 사용하는 사람들이 유동적으로 탐색할 수 있도록 한다.
 
