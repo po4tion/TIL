@@ -10,3 +10,4 @@
 ## UX & UI
 
 - [Task flows와 User flows](./UX_UI/flows.md)
+- [Persona](./UX_UI/persona.md)
