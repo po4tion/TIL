@@ -9,6 +9,7 @@
 
 ## UX & UI
 
+- [Fidelity](./UX_UI/fidelity.md)
+- [Font pairing](./UX_UI/font_pairing.md)
 - [Task flows와 User flows](./UX_UI/flows.md)
 - [Persona](./UX_UI/persona.md)
-- [Fidelity](./UX_UI/fidelity.md)
