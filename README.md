@@ -13,6 +13,7 @@
 
 ## JavaScript
 
+- [Closure](./JavaScript/closure.md)
 - [Hoisting](./JavaScript/hoisting.md)
 - [Event Loop](./JavaScript/event_loop.md)
 
