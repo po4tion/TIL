@@ -14,8 +14,9 @@
 ## JavaScript
 
 - [Closure](./JavaScript/closure.md)
-- [Hoisting](./JavaScript/hoisting.md)
 - [Event Loop](./JavaScript/event_loop.md)
+- [Hoisting](./JavaScript/hoisting.md)
+- [This](./JavaScript/this.md)
 
 ## UX & UI
 

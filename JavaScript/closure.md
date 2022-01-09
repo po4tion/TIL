@@ -6,11 +6,11 @@
 
 ```javascript
 function closure() {
-	const value = 128;
+ const value = 128;
 
-	const closureFunc = () => console.log(value);
+ const closureFunc = () => console.log(value);
 
-	return closureFunc;
+ return closureFunc;
 }
 
 const result = closure();
@@ -20,17 +20,17 @@ result(); // 128
 
 위의 코드에서 `closure()`는 result에 `closureFunc`를 반환하고 콜스택에서 제거되었으므로 value 값 또한 유효하지 않게 됩니다. 하지만 신기하게도 `result()`를 실행해보면 128이 출력됩니다.
 
-이처럼 반환된 내부함수가 자신이 선언됐을 때의 환경(Lexical environment)을 기억하여 선언되었던 환경 밖에서 호출되어도 그 환경에 접근할 수 있는 함수를 말합니다.
+이처럼 클로저는 반환된 내부함수가 자신이 선언됐을 때의 환경(Lexical environment)을 기억하여 선언되었던 환경 밖에서 호출되어도 그 환경에 접근할 수 있는 함수를 말합니다.
 
 즉, 클로저는 자신이 생성될 때의 환경을 기억하는 함수입니다.
 
 ```javascript
 function wrong() {
-	for (var i = 0; i < 5; i++) {
-		setTimeout(function () {
-			console.log(i);
-		}, 100);
-	}
+ for (var i = 0; i < 5; i++) {
+  setTimeout(function () {
+   console.log(i);
+  }, 100);
+ }
 }
 
 wrong();
@@ -48,12 +48,12 @@ wrong();
 
 ```javascript
 function test() {
-	for (var i = 0; i < 5; i++) {
-		setTimeout(function () {
-			// test
-		}, 100);
-	}
-	console.log(i);
+ for (var i = 0; i < 5; i++) {
+  setTimeout(function () {
+   // test
+  }, 100);
+ }
+ console.log(i);
 }
 
 test(); // 5
@@ -63,13 +63,13 @@ test(); // 5
 
 ```javascript
 function test() {
-	for (var i = 0; i < 5; i++) {
-		(function (k) {
-			setTimeout(function () {
-				console.log(k);
-			}, 100);
-		})(i);
-	}
+ for (var i = 0; i < 5; i++) {
+  (function (k) {
+   setTimeout(function () {
+    console.log(k);
+   }, 100);
+  })(i);
+ }
 }
 
 test();
@@ -89,11 +89,11 @@ test();
 
 ```javascript
 function test() {
-	for (let i = 0; i < 5; i++) {
-		setTimeout(function () {
-			console.log(i);
-		});
-	}
+ for (let i = 0; i < 5; i++) {
+  setTimeout(function () {
+   console.log(i);
+  });
+ }
 }
 
 test();
@@ -106,7 +106,7 @@ test();
 */
 ```
 
-### 출처
+## 출처
 
 [MDN Web Docs](https://developer.mozilla.org/ko/docs/Web/JavaScript/Closures)  
 [PoiemaWeb](https://poiemaweb.com/js-closure)

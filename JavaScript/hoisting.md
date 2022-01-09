@@ -17,11 +17,11 @@ value = 12; // 초기화
 hoist();
 
 function hoist() {
-	console.log('첫번째 : ', value); // undefined
+ console.log('첫번째 : ', value); // undefined
 
-	var value = 28;
+ var value = 28;
 
-	console.log('두번째 : ', value); // 28
+ console.log('두번째 : ', value); // 28
 }
 ```
 
@@ -30,11 +30,11 @@ function hoist() {
 hoist();
 
 var hoist = function () {
-	console.log('첫번째 : ', value); // TypeError: hoist is not a function
+ console.log('첫번째 : ', value); // TypeError: hoist is not a function
 
-	var value = 28;
+ var value = 28;
 
-	console.log('두번째 : ', value);
+ console.log('두번째 : ', value);
 };
 ```
 

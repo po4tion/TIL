@@ -10,21 +10,21 @@ JavaScript는 하나의 스택을 가지고 있고 동시에 단 하나의 작�
 
 ```javascript
 function stack_1() {
-	console.log('stack_1');
+ console.log('stack_1');
 
-	stack_2();
+ stack_2();
 }
 
 function stack_2() {
-	const web_api = setTimeout(function () {
-		console.log('stack_2');
-	}, 0);
+ const web_api = setTimeout(function () {
+  console.log('stack_2');
+ }, 0);
 
-	stack_3();
+ stack_3();
 }
 
 function stack_3() {
-	console.log('stack_3');
+ console.log('stack_3');
 }
 
 stack_1();
