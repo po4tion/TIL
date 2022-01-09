@@ -16,6 +16,7 @@
 - [Closure](./JavaScript/closure.md)
 - [Event Loop](./JavaScript/event_loop.md)
 - [Hoisting](./JavaScript/hoisting.md)
+- [Promise](./JavaScript/promise.md)
 - [This](./JavaScript/this.md)
 
 ## UX & UI

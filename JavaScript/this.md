@@ -203,3 +203,9 @@ obj.foo();
 ```
 
 화살표 함수 내부의 this는 상위 lexical scope의 this에 가리킨다.
+
+## 출처
+
+[MDN Web Docs(var)](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Statements/var)
+[MDN Web Docs(this)](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Operators/this)  
+[PoiemaWeb](https://poiemaweb.com/js-this)
